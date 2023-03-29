@@ -7,8 +7,8 @@
     <title>Departement</title>
 </head>
 <body>
-    <form action="">
-        <input type="text name="code">
+    <form action="addDep.php" method="post">
+        <input type="text" name="code">
         <input type="text" name="libelle">
         <input type="text" name="adresse">
         <input type="submit" value= "Ajouter">
