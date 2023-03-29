@@ -7,8 +7,10 @@
     $adresse = $_REQUEST["adresse"];
 
     # Inserting data
-    $connexion->query("insert into Departement(Matricule, Nom, Prenom, Moyenne) 
+    $connexion->query("insert into Departement(codeDept, libelle,adresse) 
     values('$code', '$libelle' , '$adresse')");
+
+    header("location: vueDep.php");
 
 
 
